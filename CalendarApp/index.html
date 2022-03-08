@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendar App</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="selectMonth">
+        <h2 id="month"></h2>
+        <div>
+          <button id="backBtn">Back</button>
+          <button id="nextBtn">Next</button>
+        </div>
+      </div>
+
+      <ul id="days">
+        <li>Sunday</li>
+        <li>Monday</li>
+        <li>Tuesday</li>
+        <li>Wednesday</li>
+        <li>Thursday</li>
+        <li>Friday</li>
+        <li>Saturday</li>
+      </ul>
+    </header>
+
+    <main>
+      <div id="calendar"></div>
+
+      <div id="showEvent">
+        <h2>All Events</h2>
+      </div>
+    </main>
+    <div id="addEvent">
+      <h2>New Event</h2>
+
+      <input id="eventContent" placeholder="Event Title" />
+      <button id="saveButton">Save</button>
+      <button id="cancelButton">Cancel</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
